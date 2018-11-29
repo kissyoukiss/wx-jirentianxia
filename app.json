@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/homemain/homemain",
+    "pages/recruit/recruitmain/recruitmain",
+    "pages/resume/resumemain/resumemain",
+    "pages/mine/minemain/minemain"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fefefe",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#CC3B26",
+    "backgroundColor": "#fefefe",
+    "borderStyle": "white",
+    "color": "#a5a5a5",
+    "list": [
+      {
+        "pagePath": "pages/home/homemain/homemain",
+        "text": "首页",
+        "iconPath": "/imgs/icon_home_gray.png",
+        "selectedIconPath": "/imgs/icon_home_red.png"
+      },
+      {
+        "pagePath": "pages/recruit/recruitmain/recruitmain",
+        "text": "招聘",
+        "iconPath": "/imgs/icon_recruit_gray.png",
+        "selectedIconPath": "/imgs/icon_recruit_red.png"
+      },
+      {
+        "pagePath": "pages/resume/resumemain/resumemain",
+        "text": "简历",
+        "iconPath": "/imgs/icon_resume_gray.png",
+        "selectedIconPath": "/imgs/icon_resume_red.png"
+      },
+      {
+        "pagePath": "pages/mine/minemain/minemain",
+        "text": "我的",
+        "iconPath": "/imgs/icon_mine_gray.png",
+        "selectedIconPath": "/imgs/icon_mine_red.png"
+      }
+    ]
+  },
+  "plugins": {
+   
+  }
+}
